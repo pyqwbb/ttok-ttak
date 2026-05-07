@@ -1,17 +1,18 @@
 # 💰 똑딱 (TTokTTak)
 
-**가계부 입문자를 위한 소비 기록 서비스 — 기록을 습관으로, 데이터를 인사이트로**
-
 <p>
-  <img src="https://img.shields.io/badge/Vue-3-F7C948?style=flat&logo=vue.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pinia-Store-F4B400?style=flat&logo=pinia&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Axios-HTTP-F6C453?style=flat&logo=axios&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JSON--Server-Mock-F2C94C?style=flat&logo=json&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vue-3-F9D976?style=flat&logo=vue.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pinia-Store-F9D976?style=flat&logo=pinia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Axios-HTTP-F9D976?style=flat&logo=axios&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JSON--Server-Mock-F9D976?style=flat&logo=json&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS-Animation-F9D976?style=flat&logo=css3&logoColor=white"/>
 </p>
 
-📎 본 레포지토리는 팀 프로젝트 TTokTTak에서 **제가 기여한 부분만 추출한 포트폴리오용 레포지토리**입니다.  
-👉 [팀 프로젝트 원본 레포지토리 바로가기](https://github.com/jeonsungwon9012/Skeleton-project)
+**가계부 입문자를 위한 소비 기록 서비스**  
+기록을 습관으로, 데이터를 인사이트로
+
+> 📎 본 레포지토리는 팀 프로젝트 TTokTTak에서 기여한 부분만 추출하여 구성한 포트폴리오용 레포지토리입니다.  
+> 👉 [팀 프로젝트 원본 레포지토리 바로가기](https://github.com/jeonsungwon9012/Skeleton-project)
 
 ---
 
@@ -19,6 +20,7 @@
 
 - [📌 프로젝트 개요](#-프로젝트-개요)
 - [🧩 담당 역할 및 구현 기능](#-담당-역할-및-구현-기능)
+- [⚙️ 핵심 기능 상세](#️-핵심-기능-상세)
 - [🛠 기술 스택](#-기술-스택)
 - [🖼️ 실행 화면](#️-실행-화면)
 - [🚀 실행 방법](#-실행-방법)
@@ -37,21 +39,22 @@
 
 ## 🧩 담당 역할 및 구현 기능
 
-> 팀 프로젝트 내에서 아래 기능들을 단독으로 설계 및 구현했습니다.
-
 - 노션 관리 및 프로젝트 문서화 (명세서, README)
 - 반응 메시지 · 이달의 요약 · 뱃지 시스템 등 핵심 기능 로직 설계
 - 소비 데이터 시각화 (버블 차트, 프로그레스 바)
 - 공통 레이아웃 (사이드바) 구현
-- 유저 정보 조회 및 수정
+- 유저 정보 조회 및 수정 기능 로직 설계
 
 ---
 
-### ⚙️ 핵심 기능 상세
+## ⚙️ 핵심 기능 상세
 
-#### 🤩 반응 메시지
+> 아래 화면은 [팀 프로젝트 완성본](https://github.com/jeonsungwon9012/Skeleton-project) 기준으로 촬영되었습니다.
 
-📸 _(스크린샷)_
+### 🤩 반응 메시지
+
+<img width="368" height="207" alt="image" src="https://github.com/user-attachments/assets/8cdd702c-b2e0-463a-889b-61fa0b4131b2" />
+<br/>
 
 거래 등록 시 해당 카테고리의 **월별 소비 횟수(count)** 를 계산하고, 카테고리 + count 조합으로 메시지를 조회합니다. 조건에 맞는 메시지가 없을 경우 fallback 메시지를 생성합니다.
 
@@ -60,20 +63,22 @@
 
 ---
 
-#### 📅 이달의 요약
+### 📅 이달의 요약
 
-📸 _(스크린샷)_
+<img width="650" height="92" alt="image" src="https://github.com/user-attachments/assets/80709b53-e689-4036-8606-d8eaab77010f" />   
+<br/>
 
-이번 달 거래 데이터를 기반으로 카테고리별 소비 횟수를 집계하고, 가장 많이 소비한 카테고리를 기준으로 요약 메시지를 생성합니다.
+이번 달 거래 데이터를 기반으로 카테고리별 소비 횟수를 집계하고, 가장 많이 소비한 카테고리를 기준으로 요약 메시지를 생성합니다.  
 
 > **핵심 포인트**  
 > 수치 데이터를 단순 나열하는 대신, **사용자의 소비 패턴을 문장으로 풀어내는 방식**에 집중했습니다.
 
 ---
 
-#### 🥇 뱃지 시스템
+### 🥇 뱃지 시스템
 
-📸 _(스크린샷)_
+<img width="410" height="186" alt="image" src="https://github.com/user-attachments/assets/738d4521-7fcd-4d8d-8769-aeff9fcb4058" />
+<br/>
 
 지난 달 소비 데이터를 분석해 최다 소비 카테고리를 도출하고, 해당 카테고리를 기반으로 뱃지를 생성 및 저장합니다. 생성된 뱃지는 대시보드에서 시각적으로 확인할 수 있습니다.
 
@@ -84,17 +89,19 @@
 
 ## 🛠 기술 스택
 
-| 구분 | 기술 |
-|------|------|
-| Frontend | Vue 3, Pinia, Vue Router, CSS |
-| HTTP 통신 | Axios |
-| Backend (Mock) | JSON Server |
+| 구분           | 기술                          |
+| -------------- | ----------------------------- |
+| Frontend       | Vue 3, Pinia, Vue Router, CSS |
+| HTTP 통신      | Axios                         |
+| Backend (Mock) | JSON Server                   |
 
 ---
 
 ## 🖼️ 실행 화면
 
-_(GIF 예정)_
+> 아래 화면은 현재 레포지토리에서 실행한 화면입니다.
+
+<img width="1000" height="529" alt="ttokttak" src="https://github.com/user-attachments/assets/086c5589-d226-4b6b-8b17-f653954c4a4f" />
 
 ---
 
@@ -135,4 +142,4 @@ npm run dev
 
 혼자 개발할 때와 달리, 팀원들과 코드 스타일을 맞추고 기능을 분담하는 과정에서 협업의 무게를 실감했습니다.
 
-특히 **"사용자가 왜 이 서비스를 계속 써야 하는가?"** 라는 질문에서 출발한 '재미 요소' 기획이 반응 메시지와 뱃지라는 실제 기능으로 구현된 경험이 가장 인상 깊었습니다. 기능의 완성도보다 **기획 의도가 코드에 녹아드는 과정**이 개발의 핵심임을 이 프로젝트를 통해 배웠습니다.
+특히 **"사용자가 왜 이 서비스를 계속 써야 하는가?"** 라는 질문에서 출발한 '재미 요소' 기획이 반응 메시지와 뱃지라는 실제 기능으로 구현되는 과정이 인상 깊었습니다. **기획 의도가 그대로 화면에서 동작하는 걸 직접 만들어낸 경험**은, 단순히 주어진 기능을 구현하는 것과는 달랐고 이는 개발자로서 한 단계 성장하는 계기가 됐습니다.
