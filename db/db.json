@@ -2,18 +2,18 @@
   "USER": [
     {
       "id": "1",
-      "nickname": "소비대장",
-      "email": "user1@example.com",
-      "age": 10,
+      "nickname": "똑딱이",
+      "email": "ttokttak@example.com",
+      "age": 20,
       "gender": "female",
-      "count": 15,
+      "count": 25,
       "cid": 1,
       "budgetCount": 3
     },
     {
       "id": "2",
       "nickname": "절약왕",
-      "email": "user2@test.com",
+      "email": "saveking@test.com",
       "age": 30,
       "gender": "male",
       "count": 8,
@@ -98,85 +98,169 @@
       "id": "1",
       "date": "2026-04-01",
       "type": "expense",
-      "amount": 12000,
+      "amount": 15000,
       "cid": 1,
-      "detail": "마라탕",
-      "memo": "너무 매웠음",
+      "detail": "치킨마요",
+      "memo": "점심식사",
       "uid": 1,
       "isRecurring": false,
       "cycle": null
     },
     {
       "id": "2",
-      "date": "2026-04-02",
+      "date": "2026-04-05",
       "type": "expense",
       "amount": 4500,
       "cid": 2,
       "detail": "아메리카노",
-      "memo": "생존수혈",
+      "memo": "커피 수혈",
       "uid": 1,
       "isRecurring": false,
       "cycle": null
     },
     {
       "id": "3",
-      "date": "2026-04-05",
+      "date": "2026-04-10",
       "type": "expense",
-      "amount": 14900,
-      "cid": 7,
-      "detail": "넷플릭스",
-      "memo": "정기결제",
+      "amount": 12000,
+      "cid": 1,
+      "detail": "김치찌개",
+      "memo": "저녁식사",
       "uid": 1,
-      "isRecurring": true,
-      "cycle": "monthly"
+      "isRecurring": false,
+      "cycle": null
     },
     {
       "id": "4",
-      "date": "2026-04-01",
+      "date": "2026-04-15",
       "type": "expense",
-      "amount": 5500,
-      "cid": 1,
-      "detail": "학식",
-      "memo": "가성비 최고",
+      "amount": 30000,
+      "cid": 7,
+      "detail": "영화관람",
+      "memo": "주말 문화생활",
       "uid": 1,
       "isRecurring": false,
       "cycle": null
     },
     {
       "id": "5",
-      "date": "2026-04-03",
+      "date": "2026-04-20",
       "type": "expense",
-      "amount": 50000,
-      "cid": 4,
-      "detail": "청년희망적금",
-      "memo": "자동이체",
-      "uid": 2,
-      "isRecurring": true,
-      "cycle": "monthly"
+      "amount": 5500,
+      "cid": 1,
+      "detail": "햄버거",
+      "memo": "야식",
+      "uid": 1,
+      "isRecurring": false,
+      "cycle": null
     },
     {
+      "id": "6",
+      "date": "2026-05-01",
+      "type": "expense",
+      "amount": 12000,
+      "cid": 1,
+      "detail": "마라탕",
+      "memo": "중독적인 맛",
+      "uid": 1,
+      "isRecurring": false,
+      "cycle": null
+    },
+    {
+      "id": "7",
+      "date": "2026-05-02",
+      "type": "expense",
+      "amount": 5000,
+      "cid": 2,
+      "detail": "바닐라라떼",
+      "memo": "당 충전",
+      "uid": 1,
+      "isRecurring": false,
+      "cycle": null
+    },
+    {
+      "id": "8",
+      "date": "2026-05-03",
+      "type": "expense",
+      "amount": 25000,
+      "cid": 3,
+      "detail": "생필품 쇼핑",
+      "memo": "휴지, 세제 구입",
+      "uid": 1,
+      "isRecurring": false,
+      "cycle": null
+    },
+    {
+      "id": "9",
+      "date": "2026-05-04",
+      "type": "expense",
+      "amount": 1500,
+      "cid": 5,
+      "detail": "지하철",
+      "memo": "출근",
+      "uid": 1,
+      "isRecurring": false,
+      "cycle": null
+    },
+    {
+      "id": "10",
+      "date": "2026-05-05",
+      "type": "expense",
+      "amount": 55000,
+      "cid": 7,
+      "detail": "전시회 관람",
+      "memo": "어린이날 나들이",
+      "uid": 1,
+      "isRecurring": false,
+      "cycle": null
+    },
+    {
+      "id": "11",
+      "date": "2026-05-06",
+      "type": "expense",
+      "amount": 8000,
+      "cid": 1,
+      "detail": "제육볶음",
+      "memo": "점심 혼밥",
+      "uid": 1,
+      "isRecurring": false,
+      "cycle": null
+    },
+    {
+      "id": "12",
       "date": "2026-05-06",
       "type": "expense",
       "amount": 4500,
-      "detail": "스타벅스 아메리카노",
-      "memo": "출근길 필수",
-      "uid": 1,
       "cid": 2,
+      "detail": "아이스 아메리카노",
+      "memo": "졸음 퇴치용",
+      "uid": 1,
       "isRecurring": false,
-      "cycle": null,
-      "id": "sFtytuZMuuY"
+      "cycle": null
     },
     {
-      "date": "2026-05-06",
+      "id": "13",
+      "date": "2026-05-07",
       "type": "expense",
       "amount": 1200,
-      "detail": "삼각김밥",
-      "memo": "절약모드",
-      "uid": 1,
       "cid": 1,
+      "detail": "편의점 삼각김밥",
+      "memo": "간단 아침",
+      "uid": 1,
       "isRecurring": false,
-      "cycle": null,
-      "id": "sICdvXOslN8"
+      "cycle": null
+    },
+    {
+      "id": "14",
+      "date": "2026-05-01",
+      "type": "income",
+      "amount": 2500000,
+      "cid": 10,
+      "detail": "월급",
+      "memo": "소중한 월급날",
+      "uid": 1,
+      "isRecurring": true,
+      "cycle": "monthly"
     }
   ],
   "TEMPLATE": [
@@ -187,16 +271,25 @@
       "amount": 4500,
       "type": "expense",
       "detail": "스타벅스 아메리카노",
-      "memo": "출근길 필수"
+      "memo": "출근길 고정 지출"
     },
     {
       "id": "2",
       "uid": 1,
       "cid": 1,
-      "amount": 1200,
+      "amount": 8000,
       "type": "expense",
-      "detail": "삼각김밥",
-      "memo": "절약모드"
+      "detail": "식권 구매",
+      "memo": "회사 근처 식당"
+    },
+    {
+      "id": "3",
+      "uid": 1,
+      "cid": 5,
+      "amount": 1500,
+      "type": "expense",
+      "detail": "지하철 편도",
+      "memo": "기본 요금"
     }
   ],
   "reactionCount": [
@@ -204,25 +297,31 @@
       "id": "1",
       "cid": 1,
       "uid": 1,
-      "currentCount": "5"
+      "currentCount": 4
     },
     {
       "id": "2",
       "cid": 2,
       "uid": 1,
-      "currentCount": "8"
+      "currentCount": 3
     },
     {
       "id": "3",
-      "cid": 1,
-      "uid": 2,
-      "currentCount": "2"
+      "cid": 3,
+      "uid": 1,
+      "currentCount": 1
     },
     {
       "id": "4",
-      "cid": 4,
-      "uid": 2,
-      "currentCount": "1"
+      "cid": 5,
+      "uid": 1,
+      "currentCount": 1
+    },
+    {
+      "id": "5",
+      "cid": 7,
+      "uid": 1,
+      "currentCount": 1
     }
   ],
   "monthlySummaryMessages": [
@@ -230,31 +329,19 @@
       "id": "1",
       "cid": 1,
       "bid": 1,
-      "message": "📊 이번 달 식비가 저번 달보다 15% 줄었어요! 절약왕!"
+      "message": "📊 이번 달 식비가 저번 달보다 10% 절약되었어요! 아주 좋아요."
     },
     {
       "id": "2",
       "cid": 2,
       "bid": 2,
-      "message": "☕ 카페 방문 횟수가 늘고 있어요. 홈카페는 어때요?"
+      "message": "☕ 커피 한 잔의 여유도 좋지만, 횟수를 조금 줄여보는 건 어떨까요?"
     },
     {
       "id": "3",
-      "cid": 3,
+      "cid": 7,
       "bid": 3,
-      "message": "🛍️ 쇼핑 지출이 예산의 80%에 도달했습니다! 조심하세요!"
-    },
-    {
-      "id": "4",
-      "cid": 4,
-      "bid": 4,
-      "message": "🚌 대중교통 이용이 아주 알뜰하네요. 칭찬합니다!"
-    },
-    {
-      "id": "5",
-      "cid": 5,
-      "bid": 5,
-      "message": "🎬 문화생활을 3번 즐겼어요. 감성 충만한 달이네요!"
+      "message": "🎬 문화생활을 통해 풍요로운 한 달을 보내고 계시네요!"
     }
   ],
   "CATEGORY_BUDGET": [
@@ -262,31 +349,31 @@
       "id": "1",
       "uid": 1,
       "cid": 1,
-      "amount": 150000
+      "amount": 400000
     },
     {
       "id": "2",
       "uid": 1,
       "cid": 2,
-      "amount": 50000
+      "amount": 100000
     },
     {
       "id": "3",
       "uid": 1,
-      "cid": 6,
-      "amount": 30000
+      "cid": 3,
+      "amount": 200000
     },
     {
       "id": "4",
-      "uid": 2,
-      "cid": 1,
-      "amount": 80000
+      "uid": 1,
+      "cid": 5,
+      "amount": 100000
     },
     {
       "id": "5",
-      "uid": 2,
-      "cid": 4,
-      "amount": 100000
+      "uid": 1,
+      "cid": 7,
+      "amount": 150000
     }
   ],
   "reactionMessages": [
@@ -299,56 +386,56 @@
     {
       "id": "2",
       "cid": 1,
+      "goalCount": 5,
+      "message": "🍚 벌써 5번째 식사 기록이네요! 규칙적인 식사 칭찬해요."
+    },
+    {
+      "id": "3",
+      "cid": 1,
       "goalCount": 10,
       "message": "🍚 어느덧 10번째 식사! 잘 챙겨 먹는 당신이 챔피언."
     },
     {
-      "id": "3",
+      "id": "4",
       "cid": 2,
       "goalCount": 1,
       "message": "☕ 이번 달 첫 커피네요! 향긋한 하루 되세요."
     },
     {
-      "id": "4",
+      "id": "5",
       "cid": 2,
       "goalCount": 5,
       "message": "☕ 벌써 5잔째! 카페인 수혈 완료인가요? ⚡"
     },
     {
-      "id": "5",
+      "id": "6",
       "cid": 3,
       "goalCount": 1,
-      "message": "🛍️ 택배 기다리는 설렘! 이번 달 첫 쇼핑이네요."
+      "message": "🛒 필요한 물건을 똑똑하게 구매하셨나요? 첫 마트 기록이에요."
     },
     {
-      "id": "6",
+      "id": "7",
       "cid": 4,
       "goalCount": 1,
       "message": "🏦 미래의 나를 위한 첫 저축! 아주 훌륭해요 ✨"
     },
     {
-      "id": "7",
+      "id": "8",
       "cid": 5,
-      "goalCount": 20,
-      "message": "🚌 대중교통 20회 이용! 오늘도 고생 많았어요."
+      "goalCount": 1,
+      "message": "🚌 이번 달 첫 이동 기록! 오늘도 고생 많으셨어요."
     },
     {
-      "id": "8",
+      "id": "9",
       "cid": 7,
       "goalCount": 1,
       "message": "🎬 첫 문화생활! 예술적 감성 충전 중?"
     },
     {
-      "id": "9",
+      "id": "10",
       "cid": 8,
       "goalCount": 1,
       "message": "💄 나를 위한 선물! 더 예뻐질 준비 됐나요?"
-    },
-    {
-      "id": "10",
-      "cid": 9,
-      "goalCount": 1,
-      "message": "📚 성장을 위한 투자! 당신의 열정을 응원해요."
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
