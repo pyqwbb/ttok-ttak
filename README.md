@@ -68,7 +68,7 @@
 <img width="650" height="92" alt="image" src="https://github.com/user-attachments/assets/80709b53-e689-4036-8606-d8eaab77010f" />   
 <br/>
 
-이번 달 거래 데이터를 기반으로 카테고리별 소비 횟수를 집계하고, 가장 많이 소비한 카테고리를 기준으로 요약 메시지를 생성합니다.  
+이번 달 거래 데이터를 기반으로 카테고리별 소비 횟수를 집계하고, 가장 많이 소비한 카테고리를 기준으로 요약 메시지를 생성합니다.
 
 > **핵심 포인트**  
 > 수치 데이터를 단순 나열하는 대신, **사용자의 소비 패턴을 문장으로 풀어내는 방식**에 집중했습니다.
@@ -101,7 +101,7 @@
 
 > 아래 화면은 현재 레포지토리에서 실행한 화면입니다.
 
-<img width="1000" height="529" alt="ttokttak" src="https://github.com/user-attachments/assets/086c5589-d226-4b6b-8b17-f653954c4a4f" />
+<img width="100%" alt="ttokttak" src="https://github.com/user-attachments/assets/086c5589-d226-4b6b-8b17-f653954c4a4f" />
 
 ---
 
