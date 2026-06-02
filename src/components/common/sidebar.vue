@@ -300,23 +300,23 @@ const handleDeleteTemplate = async (tmpl) => {
 }
 
 .badge-grid {
-  background-color: var(--color-gray-10);
-  padding: 1.125rem;
+  background-color: var(--color-white);
+  padding: 0.6rem;
   border-radius: 0.375rem;
   display: flex;
   flex-direction: column;
-  gap: 1.125rem;
+  gap: 0.7rem;
   width: fit-content;
 }
 
 .grid-row {
   display: flex;
-  gap: 1rem;
+  gap: 0.7rem;
 }
 
 .badge-item {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -332,10 +332,11 @@ const handleDeleteTemplate = async (tmpl) => {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  animation: badgePop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .badge-emoji {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1;
   animation: badgePop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
